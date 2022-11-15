@@ -11,6 +11,14 @@
         android:layout_height="match_parent"
         android:id="@+id/preview"/>
 
+    <TextView
+        android:id="@+id/locationTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/img_capture_btn"
         android:layout_width="wrap_content"
